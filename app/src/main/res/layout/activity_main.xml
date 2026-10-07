@@ -12,7 +12,7 @@
 <CheckBox android:id="@+id/json" android:text="JSON" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/mc4" android:text="MC4" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/shn" android:text="SHN" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/></LinearLayout>
-<EditText android:id="@+id/search" android:hint="ค้นหาชื่อเกม / CUSA / PPSA / Version" android:textColor="@color/white" android:hintTextColor="#77808F" android:backgroundTint="@color/blue" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/search" android:hint="ค้นหาชื่อเกม / CUSA / PPSA / Version" android:textColor="@color/white" android:textColorHint="#77808F" android:backgroundTint="@color/blue" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <LinearLayout android:orientation="horizontal" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
 <Button android:id="@+id/check" android:text="ตรวจสอบ" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
 <Button android:id="@+id/download" android:text="ดาวน์โหลด" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/></LinearLayout>
