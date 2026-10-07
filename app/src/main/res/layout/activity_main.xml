@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="PS4/PS5 CHEAT CODE" android:textColor="@color/white" android:textSize="25sp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="PlayStation Cheats Code Sync &amp; Update" android:textColor="@color/blue" android:textSize="14sp" android:gravity="center" android:layout_marginBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/pickFolder" android:text="เลือกโฟลเดอร์ปลายทาง" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/folderText" android:text="ยังไม่ได้เลือกโฟลเดอร์" android:textColor="#BFC7D5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+<CheckBox android:id="@+id/ps4" android:text="PS4" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/ps5" android:text="PS5" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/></LinearLayout>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+<CheckBox android:id="@+id/json" android:text="JSON" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/mc4" android:text="MC4" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/shn" android:text="SHN" android:textColor="@color/white" android:checked="true" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/></LinearLayout>
+<EditText android:id="@+id/search" android:hint="ค้นหาชื่อเกม / CUSA / PPSA / Version" android:textColor="@color/white" android:hintTextColor="#77808F" android:backgroundTint="@color/blue" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:id="@+id/check" android:text="ตรวจสอบ" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+<Button android:id="@+id/download" android:text="ดาวน์โหลด" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/></LinearLayout>
+<ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleHorizontal" android:max="100" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="10dp"/>
+<TextView android:id="@+id/status" android:text="พร้อมใช้งาน" android:textColor="#FF7777" android:textStyle="bold" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="รายการไฟล์ / สถานะ Sync" android:textColor="@color/white" android:textStyle="bold" android:textSize="17sp" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/list" android:textColor="#DDE3ED" android:textIsSelectable="true" android:fontFamily="monospace" android:background="#080A0E" android:padding="10dp" android:minHeight="300dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
